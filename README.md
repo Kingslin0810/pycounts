@@ -10,7 +10,19 @@ $ pip install pycounts_klv
 
 ## Usage
 
-- TODO
+`pycounts_klv` can be used to count words in a text file and plot results
+as follows:
+
+```python
+from pycounts_klv.pycounts import count_words
+from pycounts_klv.plotting import plot_words
+import matplotlib.pyplot as plt
+
+file_path = "test.txt"  # path to your file
+counts = count_words(file_path)
+fig = plot_words(counts, n=10)
+plt.show()
+```
 
 ## Contributing
 

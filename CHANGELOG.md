@@ -9,3 +9,8 @@
 ## v0.1.1 (11/01/2022)
 
 - Updated package name to pycounts_klv
+
+## v0.1.2 (13/01/2022)
+
+- Updated package with all dependencies 
+
